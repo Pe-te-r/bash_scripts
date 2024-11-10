@@ -9,5 +9,9 @@
 
 time=$(date)
 
-echo "This script was executed at: $time"
+location=$(pwd)
 
+echo "This script was executed at: $time"
+echo "This is your location path: $location"
+
+echo "Your name must be $USER"
